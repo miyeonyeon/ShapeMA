@@ -7,7 +7,7 @@ Shape mediation analysis designed to explore the causal relationships between ge
 
 ## R Functions
 
-To estimate coefficients of a shape-on-scalar regression model and a scalar-on-shape partial linear single-index model, we employ a multivariate varying coefficient model ([Zhu et al., 2012](https://doi.org/10.1214/12-AOS1045)) and a partially linear single-index model ([Liang et al., 2010](https://doi.org/10.1214/10-AOS835)). The resampling methods (Loh et al., 2022) are applied to calculate causal estimands. Our example codes can be used for a simplified version of 2SRM, where the number of features is 1.
+To estimate coefficients of a shape-on-scalar regression model and a scalar-on-shape partial linear single-index model, we employ a multivariate varying coefficient model ([Zhu et al., 2012](https://doi.org/10.1214/12-AOS1045)) and a partially linear single-index model ([Liang et al., 2010](https://doi.org/10.1214/10-AOS835)). The resampling methods ([Loh et al., 2022](https://doi.org/10.1111/biom.13402)) are applied to calculate causal estimands. Our example codes can be used for a simplified version of 2SRM, where the number of features is 1.
 
 - `SMA_MVCMprep`: prepare multivariate varying coefficient model formats to read a dataset.
 - `SMA_PLSIMread`: transform a scalar-on-shape partial linear single-index model.
